@@ -104,7 +104,7 @@ int main ()
         LL a, b ;
         cin>>b ;
         if(b>1000)
-            a = b-1000+1 ;   ///bcz it's proved that two consecutive prime numbe's difference is not less than 400(safe=1000)
+            a = b-1000+1 ;   ///bcz it's proven that two consecutive prime numbe's difference is not less than 400(safe=1000)
         else a = 1 ;
         seg_sieve(a, b-1) ;
     }
